@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/
 for i in mangle nat filter
 do
 iptables -t $i -F
